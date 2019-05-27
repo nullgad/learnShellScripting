@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+#read -p "Do you Want to enter " input
+
+#if [$input -eq $(yes)]
+#then 
+#    #echo "Enter Username " 
+#    #read username 
+#        
+# # if [$username -eq $("admin")]
+# #  #  then 
+#     read -p "Enter Password " passwd 
+# fi
+#fi
+
+read -p "whats your name ?  " name
+echo "hello world from $name"
+
+read -p " how old are you  " age 
+
+if ((age >= 18));then  
+    echo " you can drive !"
+elif ((age <= 18));then 
+        echo " you cant drive "
+else
+        echo " You are there huh ??" 
+fi
+     

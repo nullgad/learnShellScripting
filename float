@@ -1,0 +1,10 @@
+#!/bin/bash
+
+var1=2.5
+var2=6.3
+varEqual=$(python -c "print $var1+$var2")
+
+echo "add two floats 2.5 ans 6.3 with python and get $varEqual"
+
+
+

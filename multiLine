@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cat<< admin
+this is
+to prove
+that the 
+lines are printed 
+in Multiline
+

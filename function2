@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "sum function"
+
+sum(){
+	local num1=$1
+	local num2=$2
+	local getSum=$((num1+num2))
+	echo $getSum
+}
+
+num3=3
+num4=5
+
+getSum=$(sum num3 num4)
+
+echo "sum of numbers is $getSum"

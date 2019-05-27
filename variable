@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#variable
+myName="admin"
+
+#declaration of constants
+
+declare -r NUM1=4
+num3=3
+
+# maths
+
+num4=$((NUM1+num3))
+num5=$((NUM1-num3))
+num6=$((NUM1*num3))
+num7=$((NUM1/num3))
+
+echo "$myName"
+
+echo "the answer of + is = $num4 "

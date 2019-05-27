@@ -1,0 +1,24 @@
+#!/bin/bash
+
+var=1
+echo "$var"
+echo "var+=2 = "
+let var+=2
+echo "$var"
+
+echo "var+=2 = $((var))"
+
+#++ and --
+
+echo "var++ = $((var++))"
+echo "var = $((var))"
+
+echo "++var = $((++var))"
+echo "var = $((var))"
+
+echo "var-- = $((var--))"
+echo "var = $((var))"
+
+echo "--var = $((--var))"
+echo "var = $((var))"
+

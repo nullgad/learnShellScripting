@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+name="admini"
+
+localVar(){
+	local name="admin"
+	echo "echo from function $name"
+	return
+}
+
+localVar
+
+echo "echo from outside the fn $name" 
